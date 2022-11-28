@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="buy.css">
+    <title> olx</title>
+</head>
+
+<body>
+
+    <!-- =============================== * navbar * ============================================ -->
+
+    <div class="hedder">
+        <div class="navbar">
+
+
+            <img src="WhatsApp Image 2022-11-28 at 3.23.35 AM.jpeg">
+
+
+
+
+            <div class="contry_select" id="contry">
+                <div class="select">
+                    <p id="text"> Select Your Contry </p>
+                    <i class="fa-solid fa-chevron-down" id="moving"></i>
+                </div>
+
+                <ul class="option_box" id="list">
+                    <li class="option" onclick="myfunction('USA')">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>USA</p>
+                    </li>
+                    <li class="option" onclick="myfunction('PAKISTAN')">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>PAKISTAN</p>
+                    </li>
+                    <li class="option" onclick="myfunction('India')">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>India</p>
+                    </li>
+                    
+                </ul>
+            </div>
+
+
+
+            <div class="search_box">
+                <input type="text" class="searchclass" id="searchid" placeholder="Find Cars, mobile phone and More....">
+                <p> <i class="fa-solid fa-magnifying-glass"></i> </p>
+            </div>
+
+
+            <div class="language">
+                <p id="eng_tag"> English </p>
+
+                <ul class="hin_eng">
+                    <li onclick="languageolx('English')"> English </li>
+                    <li onclick="languageolx('हिन्दी')">हिन्दी</li>
+                </ul>
+
+            </div>
+
+
+            <div class="messeage">
+                <i class="fa-regular fa-comment"></i>
+            </div>
+
+
+            <div class="messeage">
+                <i class="fa-regular fa-bell"></i>
+            </div>
+
+
+
+            <div class="your_logo">
+                <div class="user_img" id="user_img_id">
+                    <img src="images/pic3.jpg">
+                </div>
+
+                <div class="dropdwon" id="gropdwonid">
+                    <div class="nameandimg">
+                        <img src="WhatsApp Image 2022-11-28 at 1.51.19 AM.jpeg">
+                        <p> lisa </p>
+                    </div>
+
+                    <ul>
+                        <li>
+                            <i class="fa-regular fa-user"></i>
+                            <p>My Account</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-box"></i>
+                            <p>My Orders</p>
+                        </li>
+                        <hr>
+                        <li>
+                            <i class="fa-regular fa-circle-question"></i>
+                            <p>Help</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-gear"></i>
+                            <p>Setting</p>
+                        </li>
+                        <hr>
+
+                        <li>
+                            <i class="fa-solid fa-right-from-bracket"></i>
+                            <p>Log Out</p>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+
+
+            <div class="selling_page">
+                <button> <i class="fa-solid fa-plus"></i>
+                    <p>SELL</p>
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+
+   
+
+    <!-- =============================== * product * ============================================ -->
+
+    <div class="product">
+        <div class="First_row">
+            <div class="box">
+                <a href="produc_buy.html">
+                    <img src="WhatsApp Image 2022-11-28 at 2.10.52 AM.jpeg">
+                    <h2>₹3,500</h2>
+                    <p>amazon TV Stick</p>
+                    <div class="addres_data">
+                        <p>hamirpur</p>
+                        <p>Today</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <img src="WhatsApp Image 2022-11-28 at 2.15.05 AM.jpeg">
+                <h2> ₹4800 </h2>
+                <p> iphone6s</p>
+                <div class="addres_data">
+                    <p>shimla</p>
+                    <p> JUL 27</p>
+                </div>
+            </div>
+            
+            </div>
+            
+            </div>
+        </div>
+
+        <div class="First_row">
+            <div class="box">
+                <img src="WhatsApp Image 2022-11-28 at 2.25.52 AM.jpeg">
+                <h2> ₹250 </h2>
+                <p> Black Jeans for man</p>
+                <div class="addres_data">
+                    <p>chandigarh</p>
+                    <p> oct 24 </p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="WhatsApp Image 2022-11-28 at 2.31.13 AM.jpeg">
+                <h2> ₹3,000 </h2>
+                <p> Pricise corrom board</p>
+                <div class="addres_data">
+                    <p>kullu</p>
+                    <p> JAN 29 </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- =============================== * LOde more * ============================================ -->
+
+    <div class="LOde_more">
+        <button id="Lode_more_id"> Lode More </button>
+
+        <div class="lode-More_products" id="lode_more_products_id">
+            <div class="First_row">
+                <div class="box">
+                    <a href="#"></a>
+                    <img src="WhatsApp Image 2022-11-28 at 2.10.52 AM.jpeg">
+                    <h2>₹3,500</h2>
+                    <p>amazon TV Stick</p>
+                    <div class="addres_data">
+                        <p>hamirpur</p>
+                        <p>Today</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="WhatsApp Image 2022-11-28 at 2.15.05 AM.jpeg">
+                    <h2> ₹4800 </h2>
+                    <p>iphone6s </p>
+                    <div class="addres_data">
+                        <p>shimla</p>
+                        <p> JUL 27</p>
+                    </div>
+                </div>
+                
+               
+            <div class="First_row">
+                <div class="box">
+                    <img src="WhatsApp Image 2022-11-28 at 2.25.52 AM.jpeg">
+                    <h2> ₹250</h2>
+                    <p> Black Jeans for man</p>
+                    <div class="addres_data">
+                        <p>chandigarh</p>
+                        <p> oct 24 </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="WhatsApp Image 2022-11-28 at 2.31.13 AM.jpeg">
+                    <h2> ₹3,000 </h2>
+                    <p> Pricise corrom board</p>
+                    <div class="addres_data">
+                        <p>kullu</p>
+                        <p> JAN 29 </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="WhatsApp Image 2022-11-28 at 2.54.32 AM.jpeg">
+                    <h2> ₹8,00,000 </h2>
+                    <p> Mitsubishi Pajero (2012) </p>
+                    <div class="addres_data">
+                        <p>chandigarh</p>
+                        <p> Today </p>
+                    </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    
+
+
+   
+
+    <!-- =============================== * footer * ============================================ -->
+
+    <div class="Main_footer">
+        <div class="footer">
+            <div class="footer_box">
+                <h2>POPULAR LOCATIONS</h2>
+                <p> Kolkata</p>
+                <p>Mumbai</p>
+                <p>Chennai</p>
+                <p>pune</p>
+            </div>
+            <div class="footer_box">
+                <h2>TRENDING LOCATIONS</h2>
+                <p> Bhubaneshwar</p>
+                <p>Hyderabad</p>
+                <p>Chandigarh</p>
+                <p>Nashik</p>
+            </div>
+            <div class="footer_box">
+                <h2>ABOUT US</h2>
+                <p> About OLX Group</p>
+                <p>Careers</p>
+                <p>Contact Us</p>
+                <p>buyPeople</p>
+            </div>
+            <div class="footer_box">
+                <h2>OLX</h2>
+                <p> Help</p>
+                <p>Legal & Privacy information</p>
+                <p>Blog</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        //  =============================== * navbar * ============================================
+
+        let contry = document.getElementById('contry');
+        let text = document.getElementById('text');
+        let list = document.getElementById('list');
+        contry.addEventListener('click', () => {
+            list.classList.toggle('hidden');
+            
+        });
+        function myfunction(omkar) {
+            text.innerHTML = omkar;
+        }
+
+        let eng_tag = document.getElementById('eng_tag');
+        let hin_eng = document.querySelector('.hin_eng');
+        let language = document.querySelector('.language');
+
+        language.addEventListener('click', () => {
+            hin_eng.classList.toggle('display_div');
+        });
+        function languageolx(anyone) {
+            eng_tag.innerHTML = anyone;
+        }
+
+        let user_img_id = document.getElementById('user_img_id');
+        let gropdwonid = document.getElementById('gropdwonid');
+
+        user_img_id.addEventListener('click', () => {
+            gropdwonid.classList.toggle('block_div')
+        });
+
+
+        //  =============================== * ad 1 * ============================================
+
+        let ad_img = document.querySelector('.ad_img');
+        let ad_icon = document.getElementById('ad_icon');
+
+        ad_icon.addEventListener('click', () => {
+            ad_img.style = `display: none`;
+        });
+
+
+        //  =============================== * lode more * ============================================
+
+        let Lode_more_id = document.getElementById('Lode_more_id');
+        let lode_more_products_id = document.getElementById('lode_more_products_id');
+
+        Lode_more_id.addEventListener('click', () => {
+            lode_more_products_id.style = 'display:block';
+            Lode_more_id.style = 'display:none'
+        });
+
+
+
+
+        //  =============================== * ad 2 * ============================================
+
+        let adicon2 = document.getElementById('adicon2');
+        let ads_img2 = document.querySelector('.ads_img2');
+
+        adicon2.addEventListener('click', () => {
+            ads_img2.style = 'display: none';
+        });
+
+    </script>
+
+</body>
+
+</html>
+
+
